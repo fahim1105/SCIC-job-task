@@ -15,7 +15,7 @@ export default function AddItemPage() {
         e.preventDefault();
 
         // Express Backend-e data pathano
-        const res = await fetch('http://localhost:5000/api/items', {
+        const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/items`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
@@ -45,7 +45,7 @@ export default function AddItemPage() {
                         type="text"
                         required
                         className="w-full p-2 border rounded mt-1"
-                        onChange={(e) => setFormData({...formData, name: e.target.value})}
+                        onChange={(e) => setFormData({ ...formData, name: e.target.value })}
                     />
                 </div>
                 <div>
@@ -53,7 +53,7 @@ export default function AddItemPage() {
                     <textarea
                         required
                         className="w-full p-2 border rounded mt-1"
-                        onChange={(e) => setFormData({...formData, description: e.target.value})}
+                        onChange={(e) => setFormData({ ...formData, description: e.target.value })}
                     />
                 </div>
                 <div>
@@ -62,7 +62,7 @@ export default function AddItemPage() {
                         type="number"
                         required
                         className="w-full p-2 border rounded mt-1"
-                        onChange={(e) => setFormData({...formData, price: e.target.value})}
+                        onChange={(e) => setFormData({ ...formData, price: e.target.value })}
                     />
                 </div>
                 <div>
@@ -71,7 +71,7 @@ export default function AddItemPage() {
                         type="text"
                         placeholder="https://example.com/image.jpg"
                         className="w-full p-2 border rounded mt-1"
-                        onChange={(e) => setFormData({...formData, image: e.target.value})}
+                        onChange={(e) => setFormData({ ...formData, image: e.target.value })}
                     />
                 </div>
                 <button

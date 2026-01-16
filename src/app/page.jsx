@@ -1,4 +1,3 @@
-import Footer from '@/components/Footer';
 import Link from 'next/link';
 
 export default function Home() {
@@ -82,12 +81,6 @@ export default function Home() {
           <button className="bg-black px-6 py-3 rounded-r-lg font-bold hover:bg-gray-800">Join</button>
         </div>
       </section>
-
-      {/* Footer Section */}
-      <Footer></Footer>
-      <footer className="py-10 bg-gray-900 text-gray-400 text-center border-t border-gray-800">
-        <p>© 2026 MyStore. All Rights Reserved.</p>
-      </footer>
     </div>
   );
 }
