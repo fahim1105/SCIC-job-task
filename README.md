@@ -261,16 +261,15 @@ scic-job-task/
 
 ## 👨‍💻 Developer
 
-**Name:** [Your Name]  
-**Task:** SCIC Job Task  
-**Company:** Saimon Global IT  
+**Name:** Asif Al Fattha Fahim 
+**Task:** SCIC Job Task    
 **Date:** January 2025
 
 ---
 
 ## 📄 License
 
-This project is created as a job task for **SCIC (Saimon Global IT)** and is for evaluation purposes only.
+This project is created as a job task for **SCIC** and is for evaluation purposes only.
 
 ---
 
