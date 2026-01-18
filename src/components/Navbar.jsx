@@ -48,9 +48,6 @@ export default function Navbar() {
         } else {
             document.documentElement.classList.remove('dark');
         }
-
-        // Show theme change toast
-        success(`Switched to ${newTheme} mode`);
     };
 
     // Don't render until mounted to avoid hydration mismatch
